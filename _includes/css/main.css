@@ -77,7 +77,10 @@ hr.star-primary:after {
 }
 
 .img-centered {
-    margin: 0 auto;
+     width: 150px;  /* Cambia la dimensione */
+    height: 150px;
+    border-radius: 50%; /* Trasforma l'immagine in un cerchio */
+    object-fit: cover; /* Evita deformazioni */
 }
 
 header {
