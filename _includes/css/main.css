@@ -81,6 +81,10 @@ hr.star-primary:after {
     height: 150px;
     border-radius: 50%; /* Trasforma l'immagine in un cerchio */
     object-fit: cover; /* Evita deformazioni */
+    display: block;
+    margin: 0 auto; /* Centra l'immagine */
+    border: 3px solid #ffffff; /* Aggiunge un bordo bianco (opzionale) */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Effetto ombra (opzionale) */
 }
 
 header {
